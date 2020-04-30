@@ -1,12 +1,16 @@
 {
   "name": "quill-ghost-api-tests",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "frisby": "^0.8.5",
     "lodash-node": "^3.10.0",
     "request-json": "^0.5.3",
-    "x-ray": "^2.0.2"
-  }
+    "x-ray": "^2.0.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
