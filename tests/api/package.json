@@ -4,7 +4,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "frisby": "^0.8.5",
+    "frisby": "^2.0.0",
     "lodash-node": "^3.10.0",
     "request-json": "^0.5.3",
     "x-ray": "^2.0.2"
